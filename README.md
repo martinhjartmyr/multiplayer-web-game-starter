@@ -8,7 +8,19 @@ The main idea behind this project is to run the simulation on the server to ensu
 
 ```bash
 # Clone the repository
-git clone
+git clone git@github.com:martinhjartmyr/multiplayer-web-game-starter.git
+
+# Navigate to the project directory
+cd multiplayer-web-game-starter
+
+# Install dependencies
+pnpm install
+
+# Run development servers
+pnpm run dev
+
+# (Optional) Run the development servers in Debug Mode
+pnpm run dev:debug
 ```
 
 ## Project Structure
