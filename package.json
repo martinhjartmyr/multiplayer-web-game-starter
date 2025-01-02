@@ -1,0 +1,41 @@
+{
+  "name": "3d-multiplayer-lab",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:debug": "GAME_DEBUG=true turbo run dev",
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "lint": "turbo run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "engines": {
+    "node": ">=20.17.0"
+  },
+  "type": "module",
+  "workspaces": [
+    "server",
+    "client",
+    "packages/*"
+  ],
+  "packageManager": "pnpm@9.15.2",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-svelte": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "turbo": "^2.3.3",
+    "typescript-eslint": "^8.18.2"
+  }
+}
